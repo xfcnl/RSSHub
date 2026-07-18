@@ -211,6 +211,9 @@
         "wrangler": "4.111.0",
         "yaml-eslint-parser": "2.1.0"
     },
+    "overrides": {
+        "sanitize-html>htmlparser2": "^10.1.0"
+    },
     "lint-staged": {
         "!(*.ts|*.tsx|*.js|*.cjs|*.mjs|*.yml)": [
             "oxfmt --no-error-on-unmatched-pattern"
