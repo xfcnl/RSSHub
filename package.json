@@ -122,7 +122,7 @@
         "re2js": "2.8.6",
         "rfc4648": "1.5.4",
         "rss-parser": "3.13.0",
-        "sanitize-html": "2.17.6",
+        "sanitize-html": "2.16.0",
         "simplecc-wasm": "1.1.1",
         "socks-proxy-agent": "10.1.0",
         "source-map": "0.7.6",
@@ -210,9 +210,6 @@
         "vitest": "4.1.10",
         "wrangler": "4.111.0",
         "yaml-eslint-parser": "2.1.0"
-    },
-    "overrides": {
-        "sanitize-html>htmlparser2": "^10.1.0"
     },
     "lint-staged": {
         "!(*.ts|*.tsx|*.js|*.cjs|*.mjs|*.yml)": [
